@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Italian Cars</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <style>
+      body {
+        background-color: #f8f9fa;
+      }
+
+      h3 {
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #343a40;
+        font-family: "Arial", sans-serif;
+      }
+      .accordion-container {
+        border: 1px solid white;
+        border-radius: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+      }
+      .accordion-button {
+        background-color: #fff;
+        color: #212529;
+        font-weight: bold;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+      }
+      .accordion-button:hover {
+        background-color: #f0f0f0;
+      }
+      .accordion-button:not(.collapsed) {
+        background-color: lightgray;
+        color: black;
+      }
+      .accordion-body {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+      }
+
+      .accordion-item {
+        border: none;
+        margin-bottom: 15px;
+      }
+      .accordion-body img {
+        display: block;
+        border-radius: 10px;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+      }
+      .col-md-4 img {
+        max-width: 100px;
+        height: auto;
+        display: block;
+        margin: auto;
+      }
+
+      .col-md-8 {
+        padding-right: 20px;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+      .accordion-button:focus {
+        box-shadow: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container mt-5 accordion-container">
+      <h3>Cars</h3>
+      <!-- Accordion box -->
+      <div class="accordion">
+        <!-- Lamborghini -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              data-bs-target="#accordion1"
+            >
+              Lamborghini
+            </button>
+          </h2>
+          <div class="collapse accordion-collapse" id="accordion1">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-8">
+                  <p>
+                    Automobili Lamborghini S.p.A. is an Italian manufacturer of
+                    luxury sports cars and SUVs based in Sant'Agata Bolognese.
+                    The company is owned by the Volkswagen Group through its
+                    subsidiary Audi.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/en/thumb/d/df/Lamborghini_Logo.svg/1200px-Lamborghini_Logo.svg.png"
+                    alt="Lamborghini Logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Alfa Romeo -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              data-bs-target="#accordion2"
+            >
+              Alfa Romeo
+            </button>
+          </h2>
+          <div class="collapse accordion-collapse" id="accordion2">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-8">
+                  <p>
+                    Alfa Romeo Automobiles S.p.A. is an Italian luxury carmaker
+                    known for its sports-oriented vehicles, strong auto racing
+                    heritage, and iconic design. Headquartered in Turin, Italy,
+                    it is a subsidiary of Stellantis Europe and one of 14 brands
+                    of multinational automotive company Stellantis.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="https://alfaromeo.co.nz/image_file/xlogopagespeedicy5m4s7uyif-ynou2.png"
+                    alt="Alfa Romeo Logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Maserati -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              data-bs-target="#accordion3"
+            >
+              Maserati
+            </button>
+          </h2>
+          <div class="collapse accordion-collapse" id="accordion3">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-8">
+                  <p>
+                    Maserati S.p.A. is an Italian luxury vehicle manufacturer.
+                    Established on 1 December 1914 in Bologna, Italy, the
+                    company's headquarters are now in Modena, and its emblem is
+                    a trident. The company has been owned by Stellantis since
+                    2021. Maserati was initially associated with Ferrari.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="https://seeklogo.com/images/M/Maserati-logo-64FA823073-seeklogo.com.png"
+                    alt="Maserati Logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagani -->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              data-bs-toggle="collapse"
+              data-bs-target="#accordion4"
+            >
+              Pagani
+            </button>
+          </h2>
+          <div class="collapse accordion-collapse" id="accordion4">
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-md-8">
+                  <p>
+                    Pagani Automobili S.p.A. is an Italian manufacturer of
+                    sports cars and carbon fiber components. The company was
+                    founded in 1992 by Argentine businessman and engineer
+                    Horacio Pagani and is based in San Cesario sul Panaro, near
+                    Modena, Italy.
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <img
+                    src="https://w7.pngwing.com/pngs/703/990/png-transparent-geneva-motor-show-pagani-zonda-pagani-huayra-car-pagani-emblem-label-logo.png"
+                    alt="Pagani Logo"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
